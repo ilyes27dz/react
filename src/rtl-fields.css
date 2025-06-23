@@ -1,0 +1,8 @@
+/* استهداف أصناف MUI مباشرة */
+.rtl-form input,
+.rtl-form textarea,
+.rtl-form .MuiInputBase-input,
+.rtl-form .MuiSelect-select {
+  direction: rtl !important;
+  text-align: right !important;
+}

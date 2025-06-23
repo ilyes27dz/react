@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">mostaganem_jamila</string>
+    <string name="title_activity_main">mostaganem_jamila</string>
+    <string name="package_name">com.mostaganem.safe</string>
+    <string name="custom_url_scheme">com.mostaganem.safe</string>
+</resources>

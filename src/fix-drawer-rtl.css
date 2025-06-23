@@ -1,0 +1,80 @@
+.MuiDrawer-paper {
+  direction: rtl !important;
+  padding: 0 !important;
+  box-shadow: 0 6px 32px 0 #d32f2f25 !important;
+  background: linear-gradient(to bottom right, #fff 80%, #fbe9e7 120%);
+  border-top-left-radius: 28px !important;
+  border-bottom-left-radius: 28px !important;
+}
+
+/* العناصر */
+.MuiDrawer-paper .MuiListItem-root {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: flex-end !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  min-height: 58px !important;
+  border-radius: 18px !important;
+  overflow: visible !important;
+  transition: background 0.2s, color 0.2s;
+  font-family: 'Tajawal', 'Cairo', Arial, sans-serif !important;
+}
+
+/* تأثير hover */
+.MuiDrawer-paper .MuiListItem-root:hover:not(.Mui-selected) {
+  background: #fde6e6 !important;
+  color: #d32f2f !important;
+  cursor: pointer;
+}
+
+/* العنصر المحدد */
+.MuiDrawer-paper .MuiListItem-root.Mui-selected {
+  background-color: var(--item-bg, #d32f2f) !important;
+  color: #fff !important;
+  box-shadow: 0 2px 16px #d32f2f22;
+  border-radius: 26px !important;
+  min-height: 62px !important;
+  z-index: 10;
+  border-right: 5px solid #ffc107 !important;
+}
+
+/* أيقونة العنصر المحدد */
+.MuiDrawer-paper .MuiListItem-root.Mui-selected .MuiListItemIcon-root {
+  color: #fff !important;
+  font-size: 32px !important;
+  filter: drop-shadow(0 2px 8px #b71c1c33);
+}
+
+/* أيقونات بقية العناصر */
+.MuiDrawer-paper .MuiListItemIcon-root {
+  margin-left: 0 !important;
+  margin-right: 12px !important;
+  min-width: 32px !important;
+  font-size: 27px !important;
+  color: inherit !important;
+  transition: color 0.15s;
+}
+
+/* لون أيقونة العناصر غير المحددة حسب الـdata-color */
+.MuiDrawer-paper .MuiListItem-root:not(.Mui-selected) .MuiListItemIcon-root {
+  color: var(--item-icon, #d32f2f) !important;
+}
+
+/* النص */
+.MuiDrawer-paper .MuiListItemText-root {
+  padding-right: 20px !important;
+  text-align: right !important;
+  min-width: 0 !important;
+  flex: 1 1 auto !important;
+  font-weight: 500;
+  letter-spacing: .5px;
+}
+
+/* الـdivider */
+.MuiDrawer-paper .MuiDivider-root {
+  border-color: #d32f2f !important;
+  opacity: 0.25;
+  margin: 10px 0;
+}
